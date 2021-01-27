@@ -1,0 +1,50 @@
+body {
+    background: radial-gradient(#fff,#444);
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 860px;
+}
+.flex-item {
+    user-select: none;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #141;
+    padding: 20px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #114111bb,#119111bb);
+}
+.llave, .modelo {
+    margin: 0;
+}
+.precio {
+    justify-content: end;
+}
+img {
+    width: 150px;
+    margin: 20px;
+}
+
+b {
+    color: #bfb;
+}
+.flex-item:hover {
+    background: linear-gradient(to bottom, #114111,#119111);
+    border-color: #1f1;
+    box-shadow: 0px 0px 25px #fff;
+}
+.flex-item:focus {
+    background: linear-gradient(to bottom, #114111,#119111);
+    border: none;
+    box-shadow: 0px 0px 25px #fff;
+}
+input[type="submit"] {
+    background-color: #119111bb;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+}
