@@ -1,0 +1,83 @@
+body {
+    background: linear-gradient(to left,#555,#999);
+    /*font-family: Arial, Tahoma;*/
+    
+}
+.contenedor {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-width: 600px;
+    background-color: rgba(69, 92, 33, 0.493);
+
+
+}
+
+h2 {
+    margin: auto;
+    justify-self: center;
+}
+
+input {
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    margin: 10px auto;
+    font-size: 20px;
+    
+    font-family: monospace;
+    font-weight:500;
+    padding: 5px;
+    background: transparent;
+    border: none;
+    border-bottom:5px solid #088;
+    
+}
+input[type="submit"] {
+    border: none;
+    outline: none; 
+    background-color: #088;
+    font-weight: 700;
+    width: 300px;
+    padding: 10px;
+}
+
+form {
+    width: 700px;
+    margin: auto;
+}
+
+input:focus {
+    background: linear-gradient(to bottom, transparent, rgba(115, 202, 202, 0.452));
+    outline: none;
+}
+
+input:hover {
+    /*box-shadow: 0px 0px 10px 5px rgba(0, 136, 136, 0.377)  ;*/
+    color: #fff;
+    /*border-left: 5px solid rgb(96, 167, 167);*/
+    transition: color .4s border 1s;
+}
+input[type="submit"]:active {
+    background-color: rgb(96, 167, 167);
+    border-bottom:0px solid rgb(96, 167, 167);
+}
+input[type="submit"]:hover {
+    
+    border-bottom:0px solid rgb(96, 167, 167);
+}
+input[type="submit"]:focus {
+    background: #088;
+}
+
+.green {
+    color: rgb(0, 255, 0);
+}
+
+.red {
+    color: rgb(139, 8, 8);
+}
+#resultado {
+    margin: 50px auto;
+}
